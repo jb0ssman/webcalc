@@ -1,9 +1,11 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "c6bc6ee76bfa87e5db7cce42d8b0c29d98c2dc9dc55e972e07b2b24f081be9f6"
+            "sha256": "057a303ad22de4dbfb7a2f19fe1d51495e3bed0963be48ca3f88dd28f4d76f2f"
         },
-        "requires": {},
+        "requires": {
+            "python_version": "3.6"
+        },
         "sources": [
             {
                 "url": "https://pypi.python.org/simple",
@@ -12,23 +14,8 @@
         ]
     },
     "default": {
-        "click": {
-            "version": "==6.7"
-        },
-        "flask": {
-            "version": "==0.12.2"
-        },
-        "itsdangerous": {
-            "version": "==0.24"
-        },
-        "jinja2": {
-            "version": "==2.9.6"
-        },
-        "markupsafe": {
-            "version": "==1.0"
-        },
-        "werkzeug": {
-            "version": "==0.12.2"
+        "gunicorn": {
+            "version": "==19.7.1"
         }
     },
     "develop": {}
