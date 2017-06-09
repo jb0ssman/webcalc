@@ -1,1 +1,1 @@
-web: gunicorn webcalc:app 
+web:gunicorn webcalc:app 
