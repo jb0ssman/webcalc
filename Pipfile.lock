@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "057a303ad22de4dbfb7a2f19fe1d51495e3bed0963be48ca3f88dd28f4d76f2f"
+            "sha256": "37fa20abe12342fe5a8ca2e774bcfb9efd03764d9245920f71e4a738bd017451"
         },
         "requires": {
             "python_version": "3.6"
@@ -14,8 +14,26 @@
         ]
     },
     "default": {
+        "click": {
+            "version": "==6.7"
+        },
+        "flask": {
+            "version": "==0.12.2"
+        },
         "gunicorn": {
             "version": "==19.7.1"
+        },
+        "itsdangerous": {
+            "version": "==0.24"
+        },
+        "jinja2": {
+            "version": "==2.9.6"
+        },
+        "markupsafe": {
+            "version": "==1.0"
+        },
+        "werkzeug": {
+            "version": "==0.12.2"
         }
     },
     "develop": {}
