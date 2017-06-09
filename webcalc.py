@@ -13,7 +13,7 @@ mongo = PyMongo(app)
 
 @app.route('/')
 def index():
-    return "Hello, Aaron!"
+    return "Hello, world!"
 
 @app.route('/<int:a>/<op>/<int:b>')
 def calc(a, op, b):

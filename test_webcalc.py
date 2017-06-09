@@ -25,7 +25,7 @@ def describe_index():
     def it_says_hello(client):
         response = client.get('/')
 
-        expect(response.data).contains(b"Hello, Aaron!")
+        expect(response.data).contains(b"Hello, world!")
 
 def describe_calc():
     def when_plus(client):
