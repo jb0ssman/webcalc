@@ -1,7 +1,5 @@
 from flask import Flask
 
-watch this son of a biatch fail miserably because I don't know what I am doing
-
 app = Flask(__name__)
 
 
